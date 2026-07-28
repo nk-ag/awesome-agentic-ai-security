@@ -70,6 +70,7 @@ Where agent **code and tools** run — contain blast radius before policy even a
 Sit between apps and models; useful for **rate limits, logging, and guardrails** — complement (not replace) runtime tool enforcement.
 
 - [Guardrails](https://github.com/guardrails-ai/guardrails) — Open-source guardrails for LLM inputs/outputs (validators, structure, policy hooks).
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating offensive tools as an MCP host with proof of exploitation and a local privacy gateway.
 - [LiteLLM](https://github.com/BerriAI/litellm) — AI gateway / proxy to 100+ APIs; supports callbacks, logging, and policy hooks in the request path.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for LLM interactions (sanitization, detection, scanners).
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) — Programmable rails for dialog and tool flows in NVIDIA NeMo stacks.
