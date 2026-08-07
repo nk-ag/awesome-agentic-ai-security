@@ -87,6 +87,7 @@ Find misconfigurations **before** runtime — MCP configs, skills, dangerous too
 - [AgentSeal](https://github.com/getagentseal/agentseal) — Scan the machine for dangerous agent skills, configs, and exposure.
 - [AI Security Rules](https://github.com/SecureCodeWarrior/ai-security-rules) — Security rule packs for AI-assisted coding tools.
 - [Armur VibeScan](https://github.com/Armur-Ai/vibescan) — SAST-style scanner aimed at AI-generated (“vibe-coded”) applications.
+- [Security Context](https://securitycontext.dev/) — Provides AI agents with historical security context (commit fixes + CVEs) for any public GitHub repo via MCP and API.
 
 ---
 
@@ -97,6 +98,7 @@ Evidence for **what the agent did** — required for incident response and compl
 - [Future AGI](https://github.com/future-agi/future-agi) — Open platform for eval, observability, and improvement loops on LLM/agent apps.
 - [OpenLIT](https://github.com/openlit/openlit) — OpenTelemetry-native LLM observability (traces, costs, security-relevant telemetry).
 - [Tracecat](https://github.com/TracecatHQ/tracecat) — *(also listed above)* Case management and automation when agents participate in security ops.
+- [Uber ADR](https://github.com/uber/ADR) — Production agentic detection & response: sensor (Cursor/Claude/Codex traces), two-tier detector, ADR-Bench; prevention/Explorer not fully OSS.
 
 ---
 
@@ -104,6 +106,7 @@ Evidence for **what the agent did** — required for incident response and compl
 
 Prove agents **fail safely** under prompt injection, tool abuse, and data exfiltration.
 
+- [ADR-Bench (Uber ADR)](https://github.com/uber/ADR/tree/main/Detection) — Enterprise MCP agent security bench: 300+ tasks, 133 MCP servers, 17 techniques; pair with AgentDojo.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo) — Dynamic environment for attacks and defenses on tool-using agents.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) — Full-stack AI red-teaming platform for the AI ecosystem (models, agents, infra).
 - [Argus](https://github.com/gy15901580825/Argus) — Black-box open-source red-team testing for AI agents.
@@ -138,6 +141,7 @@ Where **most production agents** live today (IDE agents, Claude Code, OpenClaw, 
 
 Peer-reviewed and preprint work on **agents, tools, MCP, and control**.
 
+- [ADR: An Agentic Detection System for Enterprise Agentic AI Security (2026)](https://arxiv.org/abs/2605.17380) — Uber production ADR + ADR-Bench; MLSys 2026 industry track.
 - [MCP: Landscape, Security Threats, and Future Research Directions (2025)](https://arxiv.org/abs/2503.23278) — Survey of MCP threat landscape.
 - [MCP Safety Audit: LLMs with MCP Allow Major Security Exploits (2025)](https://arxiv.org/abs/2504.03767) — Empirical safety audit of MCP integrations.
 - [Beyond the Protocol: Attack Vectors in the MCP Ecosystem (2025)](https://arxiv.org/abs/2506.02040) — Attack vectors beyond the base spec.
@@ -188,6 +192,7 @@ High-signal **incidents and architecture** posts (agent + MCP). Not exhaustive �
 - [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) — MCP-specific security (papers, tools, incidents).
 - [awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) — Broader LLM security; many items apply to agents.
 - [awesome-skills-security](https://github.com/Eyadkelleh/awesome-skills-security) — Security testing for agent skills.
+- [Awesome-AI-Security](https://github.com/TalEliyahu/Awesome-AI-Security) — Curated AI security resources, research, and tools; dedicated agent tooling & MCP security section. (Site: [awesomeaisecurity.com](https://www.awesomeaisecurity.com/))
 
 ---
 
