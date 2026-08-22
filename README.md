@@ -90,7 +90,6 @@ Where agent **code and tools** run — contain blast radius before policy even a
 Sit between apps and models; useful for **rate limits, logging, and guardrails** — complement (not replace) runtime tool enforcement.
 
 - [Guardrails](https://github.com/guardrails-ai/guardrails) — Open-source guardrails for LLM inputs/outputs (validators, structure, policy hooks).
-- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating offensive tools as an MCP host with proof of exploitation and a local privacy gateway.
 - [LiteLLM](https://github.com/BerriAI/litellm) — AI gateway / proxy to 100+ APIs; supports callbacks, logging, and policy hooks in the request path.
 - [LLM Guard](https://github.com/protectai/llm-guard) — Security toolkit for LLM interactions (sanitization, detection, scanners).
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) — Programmable rails for dialog and tool flows in NVIDIA NeMo stacks.
@@ -133,6 +132,7 @@ Prove agents **fail safely** under prompt injection, tool abuse, and data exfilt
 - [Agent-SafetyBench](https://github.com/thu-coai/Agent-SafetyBench) — 2,000 test cases across 349 environments and 8 risk categories for interactive agent safety.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) — Full-stack AI red-teaming platform for the AI ecosystem (models, agents, infra).
 - [Argus](https://github.com/gy15901580825/Argus) — Black-box open-source red-team testing for AI agents.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) — Autonomous AI pentest platform; notable agent-architecture pattern: tokenization gateway keeps real IPs and credentials out of model context, tools run through a controlled MCP layer.
 - [DeepEval](https://github.com/confident-ai/deepeval) — LLM eval framework; supports agent and RAG test cases.
 - [Garak](https://github.com/NVIDIA/garak) — LLM vulnerability scanning and probing.
 - [Giskard](https://github.com/Giskard-AI/giskard) — Open-source evaluation and testing for LLM agents (bias, robustness, security tests).
