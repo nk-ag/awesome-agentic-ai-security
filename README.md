@@ -35,6 +35,7 @@ Tools on the **action path** (tool calls, egress, secrets) — not only filterin
 
 - [Adrian](https://github.com/secureagentics/Adrian) — Runtime security monitoring and control for AI agents; catches malicious tool use and policy violations.
 - [Doberman-Core](https://github.com/fu351/Doberman-Core) — Agent security framework: guardrails, prompt-injection handling, and policy around tool execution.
+- [Failproof](https://github.com/FailproofAI/failproofai) — Learn from agent traces to find failure modes and fix them with policies (MIT, open-core).
 - [Invariant Labs](https://invariantlabs.ai/) — Runtime guardrails and tracing for agent workflows (commercial; reference architecture for tool-call policies).
 - [MCP Visor](https://github.com/themayursinha/mcp-visor) — Declarative YAML policy on an MCP proxy: parse, redact, chain rules, approval gates, hash-chained audit.
 - [PipeLock](https://github.com/luckyPipewrench/pipelock) — Open-source agent firewall for MCP and agent egress; scans and constrains outbound/tool traffic.
